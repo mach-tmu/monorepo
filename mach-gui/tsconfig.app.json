@@ -20,7 +20,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    // Added for ShadCN
+    // added for shadcn
+    // https://ui.shadcn.com/docs/installation/vite
     "baseUrl": ".",
     "paths": {
       "@/*": [

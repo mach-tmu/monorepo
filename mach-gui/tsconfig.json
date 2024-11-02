@@ -4,6 +4,9 @@
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ],
+
+  // added for shadcn
+  // https://ui.shadcn.com/docs/installation/vite
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

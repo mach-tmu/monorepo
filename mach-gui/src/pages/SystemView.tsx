@@ -2,8 +2,13 @@
 
 export function SystemView() {
   return (
-    <div>
-      <h1>System View</h1>
+    <div className="flex flex-col">
+      <div className="basis-5/6 h-full w-full">
+        <h1>System View</h1>
+      </div>
+      <div className="basis-1/6 h-full w-full">
+        <h1>Sequences</h1>
+      </div>
     </div>
   );
 }

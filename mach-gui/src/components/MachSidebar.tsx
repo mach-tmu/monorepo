@@ -9,10 +9,10 @@ import {
   SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
-  SidebarMenuItem,
+  SidebarMenuItem
 } from "@/components/ui/sidebar"
 
-import MachLogo from "@/assets/mach-logo.png"
+import MachLogo from "/mach-logo.png"
  
 const items = [
   {
@@ -54,9 +54,9 @@ export default function MachSidebar() {
   return (
     <Sidebar variant="floating">
         <SidebarHeader>
-            <SidebarMenu className="flex flex-row justify-center">
-                <SidebarMenuItem>
-                    <img src={MachLogo} alt="Mach Logo" className="drop-shadow-md h-20"/>
+            <SidebarMenu className="flex flex-col justify-center">
+                <SidebarMenuItem className="mx-auto">
+                    <img src={MachLogo} alt="Mach Logo" className="drop-shadow-dark h-20"/>
                 </SidebarMenuItem>
             </SidebarMenu>
         </SidebarHeader>

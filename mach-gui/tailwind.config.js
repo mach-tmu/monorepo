@@ -7,6 +7,9 @@ export default {
 	],
 	theme: {
     	extend: {
+			dropShadow: {
+				'dark': '0 4px 3px rgba(0, 0, 0, 1.0)',
+			},
     		borderRadius: {
     			lg: 'var(--radius)',
     			md: 'calc(var(--radius) - 2px)',

@@ -1,19 +1,9 @@
 #include <Arduino.h>
-#include <FlexCAN_T4.h>
 
-// put function declarations here:
-int myFunction(int, int);
+void main() {
+  init();
 
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  while(1) {
+    // Do Loop Stuff here
+  }
 }
